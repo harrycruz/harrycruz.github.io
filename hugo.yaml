@@ -1,259 +1,39 @@
-baseURL: "https://harrycruz.github.io"
-languageCode: "en-us"
+baseurl: "https://harrycruz.github.io/"
+locale: "en-us"
 title: "Harry Cruz"
-theme: hugo-profile
+theme: "hugo-xmin"
 
-outputs:
-  home:
-    - "HTML"
-    - "RSS"
-    - "JSON"
-  page:
-    - "HTML"
-    - "RSS"
+ignoreFiles: ["_cache$"]
+footnotereturnlinkcontents: "↩"
 
-enableRobotsTXT: true
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About
+      url: "about/"
+      weight: 2
+    - name: Experience
+      url: "experience/"
+      weight: 3
+    - name: Projects
+      url: "projects/"
+      weight: 4
+    - name: Education
+      url: "education/"
+      weight: 5
 
-pagination:
-  pagerSize: 3
+params:
+  description: "Dr.-Ing. Harry Cruz – Founder & CTO at Rhesis AI, AI/ML specialist."
+  footer: "&copy; [Harry Cruz](https://harrycruz.github.io) {Year} | [GitHub](https://github.com/harrycruz) | [LinkedIn](https://www.linkedin.com/in/harrycruz/) | [Email](mailto:harrycruz@gmail.com)"
+
+security:
+  allowContent: ['.*']
 
 markup:
+  highlight:
+    codeFences: false
   goldmark:
     renderer:
       unsafe: true
-
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-
-params:
-  title: "Harry Cruz"
-  description: "Dr.-Ing. Harry Cruz – Founder & CTO at Rhesis AI, AI/ML specialist, former Microsoft Senior Data Scientist."
-  favicon: "/favicon.ico"
-
-  useBootstrapCDN: false
-  animate: true
-
-  navbar:
-    align: ms-auto
-    brandName: "Harry Cruz"
-    disableSearch: true
-    stickyNavBar:
-      enable: true
-      showOnScrollUp: true
-    enableSeparator: false
-    menus:
-      disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
-      disableAchievements: true
-      disableContact: false
-
-  hero:
-    enable: true
-    intro: "Hi, my name is"
-    title: "Harry Cruz."
-    subtitle: "I build AI systems that work in production."
-    content: |
-      Founder & CTO of [Rhesis AI](https://rhesis.ai), building the testing platform for Gen AI applications.
-      Former Senior Data Scientist at Microsoft. PhD in Internet Technologies and Systems (magna cum laude).
-      Based in Potsdam, Germany. Fluent in German, English & Portuguese.
-    image: /images/hero.jpg
-    bottomImage:
-      enable: true
-    button:
-      enable: true
-      name: "Resume"
-      url: "/cv/CV_Harry.pdf"
-      download: true
-      newPage: false
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://github.com/harrycruz
-        - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/harrycruz/
-        - icon: fa fa-envelope
-          url: mailto:harrycruz@gmail.com
-
-  about:
-    enable: true
-    title: "About Me"
-    image: "/images/me.jpg"
-    content: |-
-      I am an AI/ML practitioner and entrepreneur with a PhD from the Hasso Plattner Institute (University of Potsdam). I founded **Rhesis AI**, a platform for structured, scalable evaluation and testing of LLMs and Gen AI applications.
-
-      Before founding Rhesis AI, I spent three years at **Microsoft** as a Senior Data Scientist in the Data & AI Industry Solutions team, leading GenAI, NLP, RAG, and MLOps projects for major German and international clients across manufacturing, finance, and healthcare.
-
-      My research background is in clinical predictive modeling, explainable AI, and distributed computing. I care deeply about making AI reliable and trustworthy in production environments.
-    skills:
-      enable: true
-      title: "Core technologies I work with:"
-      items:
-        - "Python"
-        - "Azure / Azure ML"
-        - "LLMs & RAG"
-        - "MLOps"
-        - "Databricks / PySpark"
-        - "Docker / Kubernetes"
-        - "FastAPI / Flask"
-        - "Next.js"
-
-  experience:
-    enable: true
-    items:
-      - company: "Rhesis AI GmbH"
-        companyUrl: "https://rhesis.ai"
-        jobs:
-          - name: "Founder & CTO"
-            date: "Feb 2025 – Present"
-            info:
-              content: Potsdam, Germany
-            content: |
-              Responsible for technical leadership and product development, overseeing the architecture, scalability, and reliability of Rhesis AI's testing platform for Gen AI applications.
-
-              - Leading the design and implementation of AI-driven testing frameworks for structured, scalable evaluation of LLMs and Gen AI models.
-              - Driving consulting services by advising companies on LLM evaluation strategies, test set generation, and AI quality assurance.
-
-      - company: "Microsoft"
-        companyUrl: "https://microsoft.com"
-        jobs:
-          - name: "Senior Data Scientist – Data & AI, Industry Solutions"
-            date: "Feb 2022 – Jan 2025"
-            info:
-              content: Berlin, Germany
-            content: |
-              Led and implemented Generative AI (GenAI), NLP, information retrieval, and RAG projects for German and international clients, spanning full project lifecycles from model fine-tuning to deployment.
-
-              - Led ML projects for major German and international companies, particularly in manufacturing (defect detection, ML monitoring).
-              - Developed ML solutions across the full spectrum: cloud infrastructure, implementation, and MLOps with Azure and Databricks/PySpark.
-              - Concentration areas: MLOps, Responsible AI, and Supervised Machine Learning.
-
-      - company: "Hasso Plattner Institute"
-        companyUrl: "https://hpi.de"
-        jobs:
-          - name: "Research Staff – Machine Learning in Medicine & Explainable AI"
-            date: "Aug 2016 – Nov 2021"
-            info:
-              content: Potsdam, Germany
-            content: |
-              Developed Python frameworks and web apps for standardization and automation of clinical predictive models in a distributed computing infrastructure (Redis, Celery).
-
-              - Led clinical ML projects using large-scale EHR data from Icahn School of Medicine at Mount Sinai (~4M patients) with SAP HANA.
-              - Responsible for technical research infrastructure and scientific liaison with German medical partners (Charité, Heidelberg University Hospital, Heart Center Berlin, AOK Nordost).
-
-      - company: "Fraunhofer Institute for Cell Therapy and Immunology"
-        companyUrl: "https://www.izi.fraunhofer.de"
-        jobs:
-          - name: "Software Engineer – Biomedical Data Platform"
-            date: "Apr 2014 – Jul 2016"
-            info:
-              content: Potsdam, Germany
-            content: |
-              Co-developed a configurable search frontend for biobank samples (Fraunhofer Metabiobank) using Perl, XML, CSS, and jQuery.
-
-              - Developed a preprocessing pipeline to import CDISC ODM data into the clinical trial management system ObTiMA.
-              - Set up and managed biomedical solution tranSMART; performed ETL for prostate cancer datasets.
-
-  education:
-    enable: true
-    index: false
-    items:
-      - title: "Doctorate – Internet Technologies and Systems"
-        school:
-          name: "University of Potsdam, Hasso Plattner Institute"
-          url: "https://hpi.de"
-        date: "Oct 2016 – Apr 2021"
-        GPA: "magna cum laude"
-        content: |-
-          PhD degree (Dr.-Ing.). Thesis: *Standardizing Clinical Predictive Modeling*.
-
-          Concentration areas: predictive modeling, web development, distributed computing, and machine learning.
-
-      - title: "Master in Business Administration"
-        school:
-          name: "University of Leipzig"
-          url: "https://www.uni-leipzig.de"
-        date: "Oct 2011 – Sep 2013"
-        content: |-
-          Minor: Information Systems in Health Care.
-
-          Concentration areas: innovation management, internationalization of medical device companies, and architecture of information systems in health care.
-
-      - title: "Bachelor in Computer Engineering – Software Engineering"
-        school:
-          name: "Federal University of Pará"
-          url: "https://www.ufpa.br"
-        date: "Sep 2003 – Aug 2008"
-        content: |-
-          Concentration areas: software engineering and information systems.
-
-          Founded the university junior enterprise, working on web software development projects with C# and PHP.
-
-  projects:
-    enable: true
-    items:
-      - title: "Digital Banking Avatar"
-        content: |
-          Led technical design and implementation of a digital banking avatar for a large German financial institution, featuring RAG-based LLM evaluation, Promptflow integration, and banking API connections. Designed a scalable data ingestion and versioning strategy. Controlled production release, with a full launch planned for 8.3 million users.
-        badges:
-          - "OpenAI"
-          - "RAG"
-          - "Text-to-Speech"
-          - "Promptflow"
-          - "Azure"
-
-      - title: "Seam Strength Prediction"
-        content: |
-          Led a feasibility study on seam strength prediction using sensor data for a multinational consumer goods manufacturer. Managed a team of three data scientists, developed Azure ML–Databricks integration, and designed classification pipelines. Delivered insights that shaped future AI initiatives.
-        badges:
-          - "Azure ML"
-          - "Databricks"
-          - "PySpark"
-
-      - title: "Financial Anomaly Detection"
-        content: |
-          Developed financial anomaly detection for the German Finance Ministry using MLOps best practices and Isolation Forest models. Delivered reusable AI orchestration templates, improving future project scalability.
-        badges:
-          - "Azure"
-          - "MLOps"
-          - "Isolation Forest"
-
-      - title: "Defect Detection – Healthcare Manufacturer"
-        content: |
-          Built defect detection pipelines for transducer manufacturing, enabling automated retraining and IoT edge deployment. Reduced production line onboarding time from weeks to hours through CI/CD automation.
-        badges:
-          - "IoT Edge"
-          - "MLOps"
-          - "Databricks"
-          - "CI/CD"
-
-      - title: "Enterprise AI/ML Modernization"
-        content: |
-          Developed data drift monitoring, alerting, and AI/ML dashboards for a leading optics company. Deployed secure Azure ML workspaces with Terraform, delivering a scalable AI/ML blueprint across business units.
-        badges:
-          - "MLOps"
-          - "Terraform"
-          - "Data Mesh"
-          - "Azure"
-
-  contact:
-    enable: true
-    content: "My inbox is always open. Whether you have a question, a project idea, or just want to connect — feel free to reach out."
-    btnName: "Send me an email"
-    btnLink: "mailto:harrycruz@gmail.com"
-
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: false
-    socialNetworks:
-      github: https://github.com/harrycruz
-      linkedin: https://www.linkedin.com/in/harrycruz/
