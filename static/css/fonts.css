@@ -1,0 +1,4 @@
+/* Override theme fonts and nav spacing */
+.menu li {
+  margin: 0 4px;
+}
