@@ -2,17 +2,17 @@
 title: Experience
 ---
 
-## Rhesis AI GmbH — Founder & CTO
+## Rhesis AI GmbH: Founder & CTO
 **Feb 2025 – Present · Potsdam, Germany**
 
 Responsible for technical leadership and product development, overseeing the architecture, scalability, and reliability of Rhesis AI's testing platform for Gen AI applications.
 
 - Leading the design and implementation of AI-driven testing frameworks for structured, scalable evaluation of LLMs and Gen AI models.
-- Driving consulting services by advising companies on LLM evaluation strategies, test set generation, and AI quality assurance — helping clients implement testing methodologies tailored to their use cases.
+- Driving consulting services by advising companies on LLM evaluation strategies, test set generation, and AI quality assurance, helping clients implement testing methodologies tailored to their use cases.
 
 ---
 
-## Microsoft, Data & AI, Industry Solutions — Senior Data Scientist
+## Microsoft, Data & AI, Industry Solutions: Senior Data Scientist
 **Feb 2022 – Jan 2025 · Berlin, Germany**
 
 Led and implemented Generative AI (GenAI), NLP, information retrieval, and retrieval-augmented generation (RAG) projects for German and international clients, spanning full project lifecycles from model fine-tuning to deployment.
@@ -23,7 +23,7 @@ Led and implemented Generative AI (GenAI), NLP, information retrieval, and retri
 
 ---
 
-## Hasso Plattner Institute, Digital Health Center — Research Staff
+## Hasso Plattner Institute, Digital Health Center: Research Staff
 **Aug 2016 – Nov 2021 · Potsdam, Germany**  
 *Machine Learning in Medicine & Explainable AI*
 
@@ -35,7 +35,7 @@ Developed Python frameworks and web apps for standardization and automation of c
 
 ---
 
-## Fraunhofer Institute for Cell Therapy and Immunology — Software Engineer
+## Fraunhofer Institute for Cell Therapy and Immunology: Software Engineer
 **Apr 2014 – Jul 2016 · Potsdam, Germany**  
 *Biomedical Data Platform*
 

@@ -27,14 +27,14 @@ Developed financial anomaly detection for the German Finance Ministry using MLOp
 
 ---
 
-## Defect Detection — Healthcare Manufacturer
+## Defect Detection: Healthcare Manufacturer
 `IoT Edge · MLOps · Databricks · CI/CD`
 
 Built end-to-end defect detection pipelines for transducer manufacturing, enabling automated model retraining and IoT edge deployment. Reduced production line onboarding time from weeks to hours through CI/CD automation.
 
 ---
 
-## Enterprise AI/ML Modernization — Optics Company
+## Enterprise AI/ML Modernization: Optics Company
 `MLOps · Terraform · Azure ML · Data Mesh`
 
 Developed data drift monitoring, alerting dashboards, and AI/ML observability tooling. Deployed secure Azure ML workspaces using Terraform and delivered a reusable AI/ML blueprint adopted across multiple business units.

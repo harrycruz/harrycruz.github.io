@@ -2,7 +2,7 @@
 title: Education
 ---
 
-## Doctorate — Internet Technologies and Systems
+## Doctorate: Internet Technologies and Systems
 **Oct 2016 – Apr 2021 · University of Potsdam, Hasso Plattner Institute · Germany**
 
 - Degree: Dr.-Ing. (magna cum laude)
@@ -19,7 +19,7 @@ title: Education
 
 ---
 
-## Bachelor in Computer Engineering — Software Engineering
+## Bachelor in Computer Engineering: Software Engineering
 **Sep 2003 – Aug 2008 · Federal University of Pará · Belém, Brazil**
 
 - Concentration areas: software engineering and information systems.

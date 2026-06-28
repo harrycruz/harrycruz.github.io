@@ -4,13 +4,13 @@ title: About
 
 ## Background
 
-I am an AI/ML practitioner and entrepreneur with over a decade of experience spanning research, industry, and entrepreneurship. My work sits at the intersection of machine learning, software engineering, and applied AI — with a strong focus on making AI systems reliable and trustworthy in production.
+I am an AI/ML practitioner and entrepreneur with over a decade of experience spanning research, industry, and entrepreneurship. My work sits at the intersection of machine learning, software engineering, and applied AI, with a strong focus on making AI systems reliable and trustworthy in production.
 
 I hold a PhD (Dr.-Ing.) from the **Hasso Plattner Institute**, University of Potsdam, where my research focused on standardizing clinical predictive modeling in distributed computing environments. Before and after my doctorate, I worked across biomedical data platforms, clinical ML research, and enterprise AI consulting.
 
 ## Currently
 
-I am the **Founder & CTO of [Rhesis AI](https://rhesis.ai)** (Feb 2025 – present), a startup building a testing and evaluation platform for Gen AI applications. Rhesis AI helps teams apply structured, scalable QA methodologies to LLMs — moving AI testing from ad-hoc prompting to systematic, reproducible evaluation.
+I am the **Founder & CTO of [Rhesis AI](https://rhesis.ai)** (Feb 2025 – present), a startup building a testing and evaluation platform for Gen AI applications. Rhesis AI helps teams apply structured, scalable QA methodologies to LLMs, moving AI testing from ad-hoc prompting to systematic, reproducible evaluation.
 
 ## Skills
 
