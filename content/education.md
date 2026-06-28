@@ -2,7 +2,7 @@
 title: Education
 ---
 
-## Doctorate: Internet Technologies and Systems
+## Doctorate: Applied Machine Learning
 **Oct 2016 – Apr 2021 · University of Potsdam, Hasso Plattner Institute · Germany**
 
 - Degree: Dr.-Ing. (magna cum laude)

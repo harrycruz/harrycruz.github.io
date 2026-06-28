@@ -16,6 +16,6 @@ I build AI systems that work in production. Currently founding [Rhesis AI](https
 
 Previously Senior Data Scientist at **Microsoft** (Data & AI, Industry Solutions), leading GenAI, RAG, NLP, and MLOps projects for major clients across manufacturing, finance, and healthcare.
 
-PhD in Internet Technologies and Systems from the **Hasso Plattner Institute**, University of Potsdam. Thesis on standardizing clinical predictive modeling, awarded *magna cum laude*.
+PhD in Applied Machine Learning from the **Hasso Plattner Institute**, University of Potsdam. Thesis on standardizing clinical predictive modeling, awarded *magna cum laude*.
 
 Fluent in **Portuguese** (native), **English**, and **German**.
