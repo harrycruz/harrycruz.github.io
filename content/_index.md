@@ -2,7 +2,7 @@
 title: Home
 ---
 
-<img src="/images/portrait.jpeg" style="float:right; margin: 0 0 1em 2em; border-radius: 50%; width: 160px; height: 160px; object-fit: cover;" alt="Harry Cruz" />
+<img src="/images/portrait.png" style="float:right; margin: 0 0 1em 2em; border-radius: 8px; width: 160px;" alt="Harry Cruz" />
 
 # Dr.-Ing. Harry Cruz
 
