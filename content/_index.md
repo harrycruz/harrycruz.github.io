@@ -2,6 +2,8 @@
 title: Home
 ---
 
+<img src="/images/portrait.jpeg" style="float:right; margin: 0 0 1em 2em; border-radius: 50%; width: 160px; height: 160px; object-fit: cover;" alt="Harry Cruz" />
+
 # Dr.-Ing. Harry Cruz
 
 **Founder & CTO at [Rhesis AI](https://rhesis.ai)** · AI/ML Specialist · Potsdam, Germany
